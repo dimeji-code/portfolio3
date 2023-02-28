@@ -41,8 +41,9 @@ export default function Home() {
       <About />
       </section> */}
       
-      <section id='experience' className='bg-[#542613dc] overflow-hidden snap-center h-full w-full flex flex-1' 
-      style={{top:'200%',position:'absolute'}}
+      <section id='experience' className='snap-center z-2'
+      // className='bg-[#542613dc] overflow-hidden snap-center h-full w-full flex flex-1' 
+      // style={{top:'200%',position:'absolute'}}
       >
       <Experience />
       </section>

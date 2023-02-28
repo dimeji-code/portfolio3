@@ -7,7 +7,7 @@ const Experience = (props: Props) => {
     const ukemeyTools:string[] = ['HTML','CSS','JavaScript','React JS','React Native','MongoDB','PuppeteerJS']
 
 return(
-    <div className='flex flex-col items-center  w-full h-full py-4 mx-auto justify-center '>
+    <div className='flex flex-col items-center  w-full h-[100vh] py-4 mx-auto justify-center '>
       <div className='flex flex-1 flex-col w-full md:w-5/6 h-3/5 rounded-2xl hover:cursor-pointer options overflow-hidden'>
           <div className='align-center p-6'>
               <h3 className='text-white text-3xl text-center'> Work Experience</h3>
