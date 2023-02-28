@@ -26,7 +26,7 @@ const Header = () => {
   return (
     <header className={headerDown ==false?
         'sticky top-0 flex h-[70px] z-100 justify-between mx-auto max-w-5xl z-50 p-5 xl:items-center ':
-        'sticky top-0 flex h-[70px] z-100 justify-between mx-auto max-w-5xl rounded-b-md linear ease-in duration-1000 z-50 p-5 w-[100vw] xl:items-center bg-[#3a220f98]'}>
+        'sticky top-0 flex h-[70px] z-100 justify-between mx-auto max-w-5xl rounded-b-lg linear ease-in duration-1000 z-50 p-5 w-[100vw] xl:items-center bg-[#3a220f50]'}>
     {/* <header className='fixed w-full top-0 flex h-[70px] px-5xl  justify-between mx-auto  z-50 p-5 xl:items-center '> */}
         <motion.div 
         initial={{

@@ -48,13 +48,17 @@ export default function Home() {
       <Experience />
       </section>
 
-      <section id='projects' className='bg-[#ffffff] overflow-hidden snap-center h-full w-full flex flex-1' 
-      style={{top:'300%',position:'absolute'}}
+      <section id='projects' className='snap-center z-2'
+      // className='bg-[#ffffff] overflow-hidden snap-center h-full w-full flex flex-1' 
+      // style={{top:'300%',position:'absolute'}}
       >
       <Projects/>
       </section>
 
-      <section id='projects' className='bg-[#1e1d1d] overflow-hidden snap-center h-[100px] w-full flex flex-1' style={{top:'400%',position:'absolute'}}>
+      <section id='footer' 
+      className='bg-[#1e1d1d] overflow-hidden snap-center h-[100px] w-full flex flex-1' 
+      // style={{top:'400%',position:'absolute'}}
+      >
       <Footer/>
       </section>
 

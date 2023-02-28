@@ -59,7 +59,8 @@ const Projects = (props: Props) => {
         return (<span>{ stars }</span>);
       };
   return (
-    <div className='flex flex-col-reverse sm:flex-row   bg-white   w-full h-full     overflow-scroll'>
+    // <div className='flex flex-col-reverse sm:flex-row   bg-white   w-full h-full     overflow-scroll'>
+    <div className='flex flex-col-reverse sm:flex-row   bg-white   w-full h-[100vh]  overflow-scroll'>
          
                 <div className='flex flex-row w-full sm:w-3/5 h-full object-cover border shadow-md overflow-hidden hover:shadow-lg'>
                  <a target = "_blank"  href={webList[current].link}>

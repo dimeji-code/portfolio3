@@ -188,24 +188,6 @@ h1 .animated-wrapper .animated-text {
 
 }
 
-.options::before{
-  content: "";
-  top: 0;
-  left:-100%;
-  width:100%;
-  background-color:#cdcdcd;
-  height: 100%;
-  position: absolute;
-}
-.options::after{
-  content: "";
-  top: 0;
-  left:100%;
-  width:100%;
-  background-color:#283064;
-  height: 100%;
-  position: absolute;
-}
 @keyframes moveleft{
   from{
     left: 100%;
