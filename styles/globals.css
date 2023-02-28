@@ -231,3 +231,17 @@ h1 .animated-wrapper .animated-text {
   font-size: 15px;
   font-weight: 300;
 }
+/* .bounce-anim{
+  animation: bnc 0.8s linear 2;
+}
+@keyframes bnc {
+  0%, 100% {
+    transform: translateY(-25%);
+    animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+  }
+  50% {
+    transform: translateY(0);
+    animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  }
+  
+} */

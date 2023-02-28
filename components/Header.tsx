@@ -1,21 +1,32 @@
 import { motion } from 'framer-motion'
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import { SocialIcon } from 'react-social-icons'
 import Mode from './Mode'
 
 type Props = {}
 const Header = () => {
+    const [headerDown, setHeaderDown] = useState(false);
 
     const handleClickScroll = (el:string) => {
         const element = document.getElementById(el);
         if (element) {
-          // 👇 Will scroll smoothly to the top of the next section
           element.scrollIntoView({ behavior: 'smooth' });
         }
-      };
+      }
+
+
+      useEffect(() => {
+        if (typeof window !== "undefined") {
+          window.addEventListener("scroll", () =>
+            setHeaderDown(window.pageYOffset > window.innerHeight)
+          );
+        }
+      }, []);
 
   return (
-    <header className='sticky top-0 flex h-[70px]  justify-between mx-auto max-w-5xl z-50 p-5 xl:items-center '>
+    <header className={headerDown ==false?
+        'sticky top-0 flex h-[70px] z-100 justify-between mx-auto max-w-5xl z-50 p-5 xl:items-center ':
+        'sticky top-0 flex h-[70px] z-100 justify-between mx-auto max-w-5xl bounce-anim linear ease-in duration-1000 z-50 p-5 w-[100vw] xl:items-center bg-[#3a220f98]'}>
     {/* <header className='fixed w-full top-0 flex h-[70px] px-5xl  justify-between mx-auto  z-50 p-5 xl:items-center '> */}
         <motion.div 
         initial={{
