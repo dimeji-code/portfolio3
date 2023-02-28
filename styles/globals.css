@@ -1,107 +1,233 @@
-:root {
-  --max-width: 1100px;
-  --border-radius: 12px;
-  --font-mono: ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono',
-    'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro',
-    'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-
-  --primary-glow: conic-gradient(
-    from 180deg at 50% 50%,
-    #16abff33 0deg,
-    #0885ff33 55deg,
-    #54d6ff33 120deg,
-    #0071ff33 160deg,
-    transparent 360deg
-  );
-  --secondary-glow: radial-gradient(
-    rgba(255, 255, 255, 1),
-    rgba(255, 255, 255, 0)
-  );
-
-  --tile-start-rgb: 239, 245, 249;
-  --tile-end-rgb: 228, 232, 233;
-  --tile-border: conic-gradient(
-    #00000080,
-    #00000040,
-    #00000030,
-    #00000020,
-    #00000010,
-    #00000010,
-    #00000080
-  );
-
-  --callout-rgb: 238, 240, 241;
-  --callout-border-rgb: 172, 175, 176;
-  --card-rgb: 180, 185, 188;
-  --card-border-rgb: 131, 134, 135;
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 55px;
+  height: 28px;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
 
-    --primary-glow: radial-gradient(rgba(1, 65, 255, 0.4), rgba(1, 65, 255, 0));
-    --secondary-glow: linear-gradient(
-      to bottom right,
-      rgba(1, 65, 255, 0),
-      rgba(1, 65, 255, 0),
-      rgba(1, 65, 255, 0.3)
-    );
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
 
-    --tile-start-rgb: 2, 13, 46;
-    --tile-end-rgb: 2, 5, 19;
-    --tile-border: conic-gradient(
-      #ffffff80,
-      #ffffff40,
-      #ffffff30,
-      #ffffff20,
-      #ffffff10,
-      #ffffff10,
-      #ffffff80
-    );
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 20px;
+  width: 20px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
 
-    --callout-rgb: 20, 20, 20;
-    --callout-border-rgb: 108, 108, 108;
-    --card-rgb: 100, 100, 100;
-    --card-border-rgb: 200, 200, 200;
+input:checked + .slider {
+  background-color: #5921f3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2c21f3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+.pulse{
+  animation: pulse 4s ease-in-out infinite ;
+}
+@keyframes pulse{
+  0% {
+    color: #a3cce0;
   }
+  50%{
+    color: #d3d2e7;
+
+  }
+  80%{
+    color: #d3d2e7;
+
+  }
+  100%{
+    color: #a3cce0;
+
+  }
+ 
 }
 
-* {
-  box-sizing: border-box;
+.scale{
+  transform: scale(125%);
+  transition: 0.5s all ease-in-out;
+}
+
+
+
+
+.borderr {
+  height: 100px;
+  width: 200px;
+  background: linear-gradient(90deg, blue 50%, transparent 50%), linear-gradient(90deg, blue 50%, transparent 50%), linear-gradient(0deg, blue 50%, transparent 50%), linear-gradient(0deg, blue 50%, transparent 50%);
+  background-repeat: repeat-x, repeat-x, repeat-y, repeat-y;
+  background-size: 3px 4px, 3px 4px, 4px 3px, 4px 3px;
+  background-position: 0px 0px, 212px 116px, 0px 116px, 216px 0px;
+  padding: 10px;
+  transition: background-position 2s  ;
+}
+.borderr:hover{
+    background-position: 212px 0px, 0px 116px, 0px 0px, 216px 116px;
+}
+
+.animated-text > li {
+  color: #121e2a;
   padding: 0;
-  margin: 0;
+  font-size: 28px;
+  list-style: none;
+  /* display: list-item; */
+  text-align: -webkit-match-parent;
+  margin: 0%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  /* border: 4px solid rgb(61, 36, 61); */
+  top:0;
+}
+.animated-wrapper {
+  display: flex;
+  flex:1;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 80px;
+  /* border-bottom: 0.1px solid #100f0f99;
+  border-top: 0.1px solid #1f1c1c99; */
+  overflow: hidden;
+  display: inline-block;
+  
+}
+h1 .animated-wrapper .animated-text {
+  color: #fff;
+  position: relative;
+  white-space: nowrap;
+  -webkit-animation: move3 10s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-delay: 2s;
+  /* top: -30px; */
+  left: 0;
+  list-style:none;
+  list-style-type: none;
+  padding: 0;
+}
+.heading {
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: 300;
+  font-size: 35px;
+  line-height: 100%;
+  color: #FFFFFF;
+  margin: 0 0 32px;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  padding-bottom: 2px;
+
+}
+@keyframes move3 {
+  0% {
+    top: 0px;
+    opacity: 1;
+}
+20% {
+    top: 0px;
+}
+40% {
+    top: -80px;
+}
+60% {
+    top: -80px;
+}
+80% {
+  opacity: 1;
+    top: -160px;
+}
+99% {
+  opacity: 1;
+}
+100% {
+  opacity: 0;
+    top: -160px;
 }
 
-html,
-body {
-  max-width: 100vw;
-  overflow-x: hidden;
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.options::before{
+  content: "";
+  top: 0;
+  left:-100%;
+  width:100%;
+  background-color:#cdcdcd;
+  height: 100%;
+  position: absolute;
 }
-
-a {
-  color: inherit;
-  text-decoration: none;
+.options::after{
+  content: "";
+  top: 0;
+  left:100%;
+  width:100%;
+  background-color:#283064;
+  height: 100%;
+  position: absolute;
 }
-
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
+@keyframes moveleft{
+  from{
+    left: 100%;
   }
+  to{
+    left:0%;
+  }
+}
+.mvLeft{
+  position: relative;
+  animation: moveleft 4s ease-in-out linear;
+}
+.aboutToolItem{
+  color:rgb(244, 247, 249);
+  background-color: rgba(55, 79, 88, 0.74);
+  filter: drop-shadow(0 0 20px rgba(102, 103, 105, 0.092));
+  border-radius: 20px;
+  padding-left:10px;
+  padding-right:10px;
+  margin: 6px;
+  overflow: hidden;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  font-weight: 300;
 }
