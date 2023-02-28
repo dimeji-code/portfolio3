@@ -1,5 +1,4 @@
 import React from 'react'
-import { SocialIcon } from 'react-social-icons'
 import Button from './Button'
 
 type Props = {}
@@ -7,7 +6,7 @@ type Props = {}
 const About = (props: Props) => {
   return (
     <div className='flex flex-row  justify-between items-center  max-w-5xl w-full h-full  p-3 md:p-8 mx-auto'>
-        <div  className='flex flex-4/6 flex-col m-1 md:m-6   w-4/6 h-full md:h-5/6'>
+        <div  className='flex flex-4/6 flex-col m-1 md:m-6  w-full min-[365px]:w-4/6 h-full md:h-5/6'>
             <div className='text-[#504f4f] text-md md:text-lg font-Roboto bg-white rounded-md p-3 md:p-5 h-full shadow-md'>
                 <h1 className='text-[#000] text-xl md:text-3xl font-Roboto my-3 md:my-5'>About Me</h1>
 
@@ -21,7 +20,7 @@ const About = (props: Props) => {
                 
             </div>
         </div>
-        <div className='flex flex-2/6 flex-col  border hover:animate-pulse shadow-2xl  w-2/6  h-full'>
+        <div className='hidden min-[365px]:flex flex-2/6 flex-col  border hover:animate-pulse shadow-2xl  w-2/6  h-full'>
             <div className='flex flex-col w-full  '> 
                 <h1 className='heading'>
                     <div className='animated-wrapper'>

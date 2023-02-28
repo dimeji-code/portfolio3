@@ -8,7 +8,6 @@ import Experience from '@/components/Experience'
 import Projects from '@/components/Projects'
 import Footer from '@/components/Footer'
 
-const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
@@ -19,29 +18,28 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
         <link rel='preload' href='/bg9.png' as='image'/>
-        <script src="jquery-3.6.3.min.js"></script>
-
+        <link rel='preload' href='/net2.svg' as='image'/>
       </Head>
-      {/* Header */}
+
+
       <Header/>
-      {/* Landing */}
-       <section id='landing' className='overflow-hidden snap-center h-[calc(100%-70px)] flex flex-1' >
+
+      <section id='landing' className='overflow-hidden snap-center h-[calc(100%-70px)] flex flex-1' >
         <Landing />
       </section>
-      {/* About */}
+
       <section className='snap-center' id='about' style={{backgroundImage : "url('/bg9.png')",position:'absolute',display:'flex',flex:'1', top:'100%',backgroundSize:'cover',width:'100vw',height:'100vh'}}>
       <About />
       </section>
       
-      {/* Experience */}
       <section id='experience' className='bg-[#491f0fc1] overflow-hidden snap-center h-full w-full flex flex-1' style={{top:'200%',position:'absolute'}}>
       <Experience />
       </section>
-      {/* Projects */}
+
       <section id='projects' className='bg-[#ffffff] overflow-hidden snap-center h-full w-full flex flex-1' style={{top:'300%',position:'absolute'}}>
       <Projects/>
       </section>
-      {/* Footer */}
+
       <section id='projects' className='bg-[#1e1d1d] overflow-hidden snap-center h-[100px] w-full flex flex-1' style={{top:'400%',position:'absolute'}}>
       <Footer/>
       </section>

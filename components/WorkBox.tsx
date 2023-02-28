@@ -11,10 +11,9 @@ const WorkBox = (props: Props) => {
     const tools = props.list
 
   return (
-    <div className='align-center  w-2/3 h-auto   border shadow-md rounded-md bg-[#ffffff]'>
+  <div className='align-center w-[95%] sm:w-2/3 h-auto   border shadow-md rounded-md bg-[#ffffff]'>
     <div className='align-center flex flex-row justify-between p-5 bg-[#f5f3f3] '>
         <h3 className='text-black text-center'> Ukemey Inc.</h3>
-        <h4>Button</h4>
     </div>
     <div className='text-black p-5'>
         <h4><LocationOnIcon/> Remote</h4> 

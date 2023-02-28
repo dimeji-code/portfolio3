@@ -59,13 +59,13 @@ const Projects = (props: Props) => {
         return (<span>{ stars }</span>);
       };
   return (
-    <div className='flex flex-col sm:flex-row   bg-white   w-full h-full     overflow-scroll'>
-           {/* {webList.map((item: any) =>  
-            <> */}
+    <div className='flex flex-col-reverse sm:flex-row   bg-white   w-full h-full     overflow-scroll'>
+         
                 <div className='flex flex-row w-full sm:w-3/5 h-full object-cover border shadow-md overflow-hidden hover:shadow-lg'>
-                 <motion.img
-                //  initial={{ width:'100%'}} animate={{width:'108%' }} transition={{duration:1}}
-                 src={webList[current].image} className='w-full h-full grayscale-[0.4] object-cover transition ease-in-out duration-800  hover:scale-125 '/>
+                 <a target = "_blank"  href={webList[current].link}>
+                <motion.img
+                 src={webList[current].image} className='w-full h-full grayscale-[0.8] hover:grayscale-0 object-cover transition ease-in-out duration-800  hover:scale-125 '/>
+                </a>
                 </div>
                 <div className='flex flex-col w-full sm:w-2/5 justify-center p-2 '>
                     <div  className='flex flex-col flex-4/6 h-5/6 justify-center'>

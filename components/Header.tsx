@@ -32,10 +32,6 @@ const Header = () => {
             <h1 className="text-lg  text-white border-solid">DIMEJI <span className="mx-1 text-blue-400 pulse">SITU</span></h1>
             <div><img src="/me.jpg" className="w-10 h-10 rounded-full object-cover border-2 border-blue-400 pulse " /></div>
         </motion.div>
-        {/* <ul className='flex flex-row items-center'> 
-            <li className='mx-3 '><a href="#">About</a></li>
-            <li className='mx-3'><a href="#">Projects</a></li>
-        </ul> */}
         <motion.div 
         initial={{
             y:80,
@@ -48,18 +44,19 @@ const Header = () => {
             scale:1
         }} 
         transition={{duration:1}}
-         className='flex flex-row items-center'>
-            <ul className='flex flex-row items-center'> 
+         className=' flex-row items-center flex'>
+            <ul className='flex  flex-row items-center'> 
                 <li className='mx-3 border-b border-transparent hover:border-b hover:border-white hover:cursor-pointer' onClick={()=>handleClickScroll("about")} >About</li>
                 <li className='mx-3 border-b border-transparent hover:border-b hover:border-white hover:cursor-pointer' onClick={()=>handleClickScroll("projects")}>Projects</li>
             </ul>
-            <a target = "_blank" className='button lightbutton' href='https://github.com/dimeji-code'>
+            <button onClick={()=> window.open("https://github.com/dimeji-code", "_blank")} className='button lightbutton hidden sm:flex' >
             <SocialIcon className='cursor-pointer'  fgColor='white' bgColor='transparent' network='github'/>
-            </a>
-            <a target = "_blank" className='button lightbutton' href='https://www.linkedin.com/in/dimejisitu-4ba2b1211/'>
+            </button>
+
+            <button onClick={()=> window.open("https://www.linkedin.com/in/dimejisitu-4ba2b1211/", "_blank")} className='button lightbutton hidden sm:flex'>
             <SocialIcon className='cursor-pointer' fgColor='white' bgColor='transparent' network='linkedin'/>
-            </a>
-            {/* <Mode/> */}
+            </button> 
+             {/* <Mode/>  */}
         </motion.div>
     </header>
   )
