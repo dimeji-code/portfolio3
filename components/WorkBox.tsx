@@ -27,7 +27,7 @@ const WorkBox = (props: Props) => {
     </div>
     <div className='p-5'>
       <Grid container spacing={0.5} > 
-          { tools.map((item) => <Grid item ><h3 key={tools.indexOf(item)} className="
+          { tools.map((item:string) => <Grid key={item} item ><h3  className="
            text-white bg-[#696767] py-1 px-2 rounded-full shadow-md "
           >{item}</h3></Grid>
           )}
