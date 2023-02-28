@@ -16,6 +16,7 @@ const Header = () => {
 
   return (
     <header className='sticky top-0 flex h-[70px]  justify-between mx-auto max-w-5xl z-50 p-5 xl:items-center '>
+    {/* <header className='fixed w-full top-0 flex h-[70px] px-5xl  justify-between mx-auto  z-50 p-5 xl:items-center '> */}
         <motion.div 
         initial={{
             y:-80,
