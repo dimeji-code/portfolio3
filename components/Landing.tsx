@@ -17,12 +17,12 @@ const Landing = (props: Props) => {
         <div  className='flex flex-1 flex-col items-center  '>   
             <h1 className='text-6xl md:text-9xl'> Hello,</h1>
             <h1 className='text-3xl md:text-5xl'>
-                I'm a 
+                I&apos;m a 
                 <span className='text-[#a3cce0]'> {text}</span>
                 <Cursor cursorColor='#a3cce0' />
             </h1>
             <h1 className='text-3xl md:text-5xl'> Developer.</h1>
-            <h3 className='text-xl md:text-xl my-4 text-center'> Let's build something special.</h3>
+            <h3 className='text-xl md:text-xl my-4 text-center'> Let&apos;s build something special.</h3>
             <a target = "_blank"  href='/resume.pdf' className='border-slate-200 border p-2 hover:bg-[#b1b9de] hover:animate-pulse transition duration-1000 '>View Resume</a>
         </div>
 
