@@ -42,7 +42,7 @@ const Header = () => {
         transition={{duration:1}}
         className='flex flex-row items-center'>
             <h1 className="text-lg  text-white border-solid">DIMEJI <span className="mx-1 text-blue-400 pulse">SITU</span></h1>
-            <div><img src="/me.jpg" className="w-10 h-10 rounded-full object-cover border-2 border-blue-400 pulse " /></div>
+            <div><img src="/me.jpg" alt='me' className="w-10 h-10 rounded-full object-cover border-2 border-blue-400 pulse " /></div>
         </motion.div>
         <motion.div 
         initial={{

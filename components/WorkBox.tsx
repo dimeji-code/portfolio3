@@ -2,6 +2,7 @@ import React from 'react'
 import LocationOnIcon from '@mui/icons-material/LocationOn';
 import WorkOutlineIcon from '@mui/icons-material/WorkOutline';
 import { Grid } from '@mui/material';
+
 type Props = {
     list:string[],
 }

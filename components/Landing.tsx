@@ -14,7 +14,7 @@ const Landing = (props: Props) => {
     
     <div className='flex flex-1 md:border md:border-[#b8b8b896] md:rounded-bl-[150%] md:rounded-tr-[150%]  md:bg-[#5d392b] mb-1 shadow-lg flex-row justify-between items-center max-w-5xl w-full  p-5 mx-auto object-contain overflow-hidden'>
     {/* <div className='flex flex-1 md:border md:border-[#b8b8b896] md:rounded-bl-[120%] md:rounded-tr-[120%] rounded-tl-[120%] rounded-br-[120%] md:bg-[#5d392b] mb-1 shadow-lg flex-row justify-between items-center max-w-5xl w-full  p-5 mx-auto object-contain overflow-hidden'> */}
-        <motion.img  src='/net2.svg'  className='w-[85%] absolute m-0 top-[50%] left-[50%] -translate-x-1/2 -translate-y-1/2 z-[-1] '/>
+        <motion.img  src='/net2.svg' alt='background'  className='w-[85%] absolute m-0 top-[50%] left-[50%] -translate-x-1/2 -translate-y-1/2 z-[-1] '/>
         <div  className='flex flex-1 flex-col items-center  '>   
             <h1 className='text-6xl md:text-9xl'> Hello,</h1>
             <h1 className='text-3xl md:text-5xl'>
