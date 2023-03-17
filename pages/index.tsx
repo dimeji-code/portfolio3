@@ -44,7 +44,8 @@ export default function Home() {
       </section>
 
       <section id='footer' 
-      className='bg-[#1e1d1d] overflow-hidden snap-center h-[100px] w-full flex flex-1' 
+      // className='bg-[#1e1d1d] overflow-hidden snap-center h-[100px] w-full flex flex-1' 
+      className='bg-[#292929cd] overflow-hidden snap-center  w-full flex flex-1' 
       >
         <Footer/>
       </section>
