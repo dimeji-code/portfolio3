@@ -5,7 +5,6 @@ type Props = {}
 const Footer = (props: Props) => {
     const year = new Date().getFullYear()
   return (
-    //  <footer className="w-full h-[60px]  flex flex-col justify-center items-center">
       <footer className='flex flex-col items-center  w-full h-[35vh] py-4 mx-auto justify-center '>
          <h4>Made with</h4>
          <ul className='flex flex-row justify-center '>

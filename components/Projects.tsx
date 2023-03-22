@@ -16,13 +16,13 @@ const Projects = (props: Props) => {
 
     const webList = 
     [
-        {image:"/gaffer.webp",title:"GAFFER (Task Management App)",tools:"MERN (MongoDB, Express, React,Node)",description:"Slack remake for group channels and collaboration.",rating:4,link:"https://projectmanager-gaffer.up.railway.app/",},       
+        {image:"/gaffer.webp",title:"GAFFER (Task Management App)",tools:"MERN (MongoDB, Express, React,Node)",description:"Task Management system that keeps track of deadlines and completion rates.",rating:4,link:"https://projectmanager-gaffer.up.railway.app/",},       
         {image:"/ems.webp",title:"Employee Management System",tools:"Typescript, React, MaterialUI, MySQL",description:"Manage employees of a fake company with MySQL and Express.",rating:4.5,link:"https://ems-production-f785.up.railway.app/",}, 
         {image:"/Webscrape.webp",title:"Soccer News Webscraper.",tools:"Python, Selenium, ElectronJS",description:"GUI that allows scraping of the latest news in the world of soccer.",rating:4.0,link:"https://github.com/dimeji-code/news-scraper",},
         {image:"/covidtracks.webp",title:"Covid 19 Tracker",tools:"Typescript, React, Tailwind CSS, Redux, AWS",description:"Using free Covid-19 Api and React to serve statistics graphically.",rating:3.5,link:"https://www.covidtracks.com/",}, 
         {image:"/therapy.webp",title:"Denas electrotherapy simulation.",tools:"C++ (Qt Creator)",description:"Simulation of special electro-therapy hardware that administers shocks to cure different ailments.",rating:3.5,link:"https://github.com/dimeji-code/Therapy-software-QT",},
         {image:"/city.webp",title:"City_2 (Group project)",tools:"Processing 3",description:"An aerial-view shooter game in a city riddled with crime.",rating:3.5,link:"https://github.com/dimeji-code/City_2",},
-        {image:"/slack.webp",title:"Slack Clone",tools:"JS, React, Firebase, Redux",description:"Slack remake for group channels and collaboration.",rating:5,link:"https://github.com/dimeji-code/SlackDemo",},
+        {image:"/genuine.png",title:"Genuine",tools:"JS, React, Redux",description:"Form based questionnaire that generates potential gifts for any event.",rating:5,link:"https://dimeji-code.github.io/Genuine/",},
         {image:"/quote.webp",title:"Quote Tag",tools:"Swift (Xcode)",description:"Trivia game that tests knowledge on tv shows and movies by getting players to match famous quotes.",rating:4.5,link:"https://github.com/dimeji-code/Quote-Tag",},
     ]
     
