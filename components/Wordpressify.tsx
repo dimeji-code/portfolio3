@@ -5,7 +5,7 @@ type Props = {}
 
 const Wordpressify = (props: Props) => {
   return (
-    <div className="w-full  bg-[#e9e6e9] shadow-inner ">
+    <div className="w-full  bg-[#f4f5f6] shadow-inner ">
         <div className=" flex flex-row justify-center text-5xl font-semibold p-3 border-b border-[#ccc]">
             <h2 className='text-[#263241]'>CMS Portfolio</h2>
         </div>
