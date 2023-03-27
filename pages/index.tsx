@@ -5,6 +5,7 @@ import About from '@/components/About'
 import Experience from '@/components/Experience'
 import Projects from '@/components/Projects'
 import Footer from '@/components/Footer'
+import Wordpressify from '@/components/Wordpressify'
 
 
 export default function Home() {
@@ -35,6 +36,9 @@ export default function Home() {
       <section id='experience' className='snap-center z-2'
       >
         <Experience />
+      </section>
+      <section id='wordpressify' className='snap-center z-2'>
+        <Wordpressify />
       </section>
 
       <section id='projects' 

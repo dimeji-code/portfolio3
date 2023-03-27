@@ -160,6 +160,17 @@ h1 .animated-wrapper .animated-text {
   padding-bottom: 2px;
 
 }
+.rotate{
+  animation: spin 5s linear infinite;
+}
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
 @keyframes move3 {
   0% {
     top: 0px;
