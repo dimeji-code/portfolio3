@@ -5,7 +5,7 @@ type Props = {}
 
 const About = (props: Props) => {
   return (
-    <div style={{backgroundImage : "url('/bg9.webp')",display:'flex',flex:'1', top:'100%',backgroundSize:'cover',width:'100vw',minHeight:'100vh',zIndex:'0'}}>
+    <div style={{backgroundImage : "url('/bg9.webp')",display:'flex',flex:'1', top:'100%',backgroundSize:'cover',width:'100vw',minHeight:'100vh',zIndex:'0', justifyContent: 'center', alignItems: 'center'}}>
     <div className='flex flex-row  justify-between items-center  max-w-5xl w-full h-full  p-3 md:p-8 mx-auto'>
         <div  className='flex flex-4/6 flex-col m-1 md:m-6  w-full min-[365px]:w-4/6 h-full md:h-5/6'>
             <div className='text-[#504f4f] text-md md:text-lg font-Roboto bg-white rounded-md p-3 md:p-5 h-full shadow-md'>
