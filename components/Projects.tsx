@@ -16,7 +16,7 @@ const Projects = (props: Props) => {
 
     const webList = 
     [
-        {image:"/genuinev2.png",title:"Genuine",tools:"JS,Tailwind, NextJS, Redux",description:"Form based questionnaire that generates potential gifts for any event.",rating:4.5,link:"https://genuine2.vercel.app/",},
+        {image:"/genuinev2.png",title:"Genuine",tools:"TS, Tailwind, NextJS, Redux",description:"Form based questionnaire that generates potential gifts for any event.",rating:4.5,link:"https://genuine2.vercel.app/",},
         {image:"/gaffer.webp",title:"GAFFER (Task Management App)",tools:"MERN (MongoDB, Express, React,Node)",description:"Task Management system that keeps track of deadlines and completion rates.",rating:4,link:"https://projectmanager-gaffer.up.railway.app/",},       
         {image:"/ems.webp",title:"Employee Management System",tools:"Typescript, React, MaterialUI, MySQL",description:"Manage employees of a fake company with MySQL and Express.",rating:4.5,link:"https://ems-production-f785.up.railway.app/",}, 
         {image:"/Webscrape.webp",title:"Soccer News Webscraper.",tools:"Python, Selenium, ElectronJS",description:"GUI that allows scraping of the latest news in the world of soccer.",rating:4.0,link:"https://github.com/dimeji-code/news-scraper",},

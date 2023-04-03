@@ -5,16 +5,16 @@ type Props = {}
 
 const About = (props: Props) => {
   return (
-    <div style={{backgroundImage : "url('/bg9.webp')",display:'flex',flex:'1', top:'100%',backgroundSize:'cover',width:'100vw',height:'100vh',zIndex:'0'}}>
+    <div style={{backgroundImage : "url('/bg9.webp')",display:'flex',flex:'1', top:'100%',backgroundSize:'cover',width:'100vw',minHeight:'100vh',zIndex:'0'}}>
     <div className='flex flex-row  justify-between items-center  max-w-5xl w-full h-full  p-3 md:p-8 mx-auto'>
         <div  className='flex flex-4/6 flex-col m-1 md:m-6  w-full min-[365px]:w-4/6 h-full md:h-5/6'>
             <div className='text-[#504f4f] text-md md:text-lg font-Roboto bg-white rounded-md p-3 md:p-5 h-full shadow-md'>
                 <h1 className='text-[#000] text-xl md:text-3xl font-Roboto my-3 md:my-5'>About Me</h1>
 
-                <h2 className='mb-5'>I am a Fullstack developer located in Ontario, Canada with a passion for creating responsive, scalable and efficient websites.</h2>
-                <h2 className='mb-5'>I love learning about new technologies with my experience ranging from Web Development to Automation. From my work experience, I have had the opportunity to collaborate with talented people from different timezones.</h2>
-                <h2 className='mb-5 hidden sm:inline-block'>I am a <strong>certified AWS Cloud Practitioner</strong> and I aim to be a Certfied Solutions Architect in the near future.</h2>
-                <h2 className='mb-5 hidden sm:flex'>I am currently looking for a new role. Feel free to reach out.</h2>
+                <h2 className='text-sm md:text-lg mb-5'>I am a Fullstack developer located in Ontario, Canada with a passion for creating responsive, scalable and efficient websites.</h2>
+                <h2 className='text-sm md:text-lg mb-5'>I love learning about new technologies with my experience ranging from Web Development to Automation. From my work experience, I have had the opportunity to collaborate with talented people from different timezones.</h2>
+                <h2 className='text-sm md:text-lg mb-5  sm:inline-block'>I have a Bachelors Degree in Computer Science from Carleton University. I am a <strong>certified AWS Cloud Practitioner</strong> and I aim to be a Certfied Solutions Architect in the near future.</h2>
+                <h2 className='text-sm md:text-lg mb-5  sm:flex'>I am currently looking for a new role. Feel free to reach out.</h2>
                 <div className='flex flex-row'>
                     <Button text='Linkedin' color='light' id='linkedin' link='https://www.linkedin.com/in/dimejisitu-4ba2b1211/'/>
                     <Button text='Github' color='dark' id='github' link='https://github.com/dimeji-code'/>
