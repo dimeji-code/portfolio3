@@ -16,6 +16,8 @@ const Projects = (props: Props) => {
 
     const webList = 
     [
+        
+        {image:"/oddio.png",title:"ODDIO",tools:"TS, Tailwind, NextJS, Redux",description:"E-commerce audio store for the best audio technology.",rating:4.5,link:"https://oddio-web.vercel.app/",},
         {image:"/genuinev2.png",title:"Genuine",tools:"TS, Tailwind, NextJS, Redux",description:"Form based questionnaire that generates potential gifts for any event.",rating:4.5,link:"https://genuine2.vercel.app/",},
         {image:"/gaffer.webp",title:"GAFFER (Task Management App)",tools:"MERN (MongoDB, Express, React,Node)",description:"Task Management system that keeps track of deadlines and completion rates.",rating:4,link:"https://projectmanager-gaffer.up.railway.app/",},       
         {image:"/ems.webp",title:"Employee Management System",tools:"Typescript, React, MaterialUI, MySQL",description:"Manage employees of a fake company with MySQL and Express.",rating:4.5,link:"https://ems-production-f785.up.railway.app/",}, 
