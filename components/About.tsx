@@ -16,7 +16,7 @@ const About = (props: Props) => {
                 <h2 className='text-sm md:text-lg mb-5  sm:inline-block'>I have a Bachelors Degree in Computer Science from Carleton University. I am a <strong>certified AWS Cloud Practitioner</strong> and I aim to be a Certfied Solutions Architect in the near future.</h2>
                 <h2 className='text-sm md:text-lg mb-5  sm:flex'>I am currently looking for a new role. Feel free to reach out.</h2>
                 <div className='flex flex-row'>
-                    <Button text='Linkedin' color='light' id='linkedin' link='https://www.linkedin.com/in/dimejisitu-4ba2b1211/'/>
+                    <Button text='Linkedin' color='light' id='linkedin' link='https://www.linkedin.com/in/dimejisitu'/>
                     <Button text='Github' color='dark' id='github' link='https://github.com/dimeji-code'/>
                 </div>
                 

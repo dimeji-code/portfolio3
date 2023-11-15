@@ -65,7 +65,7 @@ const Header = () => {
             <SocialIcon className='cursor-pointer'  fgColor='white' bgColor='transparent' network='github'/>
             </button>
 
-            <button onClick={()=> window.open("https://www.linkedin.com/in/dimejisitu-4ba2b1211/", "_blank")} className='button lightbutton hidden sm:flex'>
+            <button onClick={()=> window.open("https://www.linkedin.com/in/dimejisitu", "_blank")} className='button lightbutton hidden sm:flex'>
             <SocialIcon className='cursor-pointer' fgColor='white' bgColor='transparent' network='linkedin'/>
             </button> 
              {/* <Mode/>  */}

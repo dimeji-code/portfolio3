@@ -4,7 +4,7 @@ import WorkBox from './WorkBox';
 type Props = {}
 
 const Experience = (props: Props) => {
-    const ukemeyTools:string[] = ['HTML','CSS','JavaScript','React JS','React Native','MongoDB','PuppeteerJS']
+    const ukemeyTools:string[] = ['HTML','CSS','JavaScript','Typescript','React JS','React Native','MongoDB','PuppeteerJS']
 
 return(
     <div className='flex flex-col items-center  w-full h-[100vh] py-4 mx-auto justify-center '>

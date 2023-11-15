@@ -24,8 +24,8 @@ const WorkBox = (props: Props) => {
         <h4 className="flex items-center"><HourglassBottomOutlinedIcon sx={{ color: '#794f32b0', marginRight:"6px"   }}/> Sept 2021 - March 2022</h4>
     </div>
     <div className="p-5"> 
-      <h4 className="text-[#464545]">Component creation, management and documentation with modern tools. 
-        Developed mobile and web based applications for clients of the company.
+      <h4 className="text-[#464545]"> 
+        Developed mobile and web based applications for clients of the company. Component creation, management and documentation with modern tools. Use of automation tools to webscrape data.
       </h4>
     </div>
     <div className='p-5'>
