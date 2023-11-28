@@ -6,7 +6,7 @@ type Props = {}
 const Experience = (props: Props) => {
   const ukemeyTools:string[] = ['CSS','Git','Typescript','React JS','React Native','MongoDB','PuppeteerJS','Google Tag Manager']
   const freelanceTools:string[] = ['JavaScript','React JS','React Native','Tailwind CSS',"HTML"]
-  const ukemeyJob = {company:"Ukemey Inc.", role:"Jr. Fullstack developer", loc:"Remote",dur:"February 2021 - March 2023", desc:"Developed mobile and web based applications for clients of the company. Use of automation tools for webscraping data."}
+  const ukemeyJob = {company:"Ukemey Inc.", role:"Jr. Fullstack developer", loc:"Remote",dur:"Sept 2021 - Mar 2022", desc:"Developed mobile and web based applications for clients of the company. Use of automation tools for webscraping data."}
     const freelance = {company:"Freelance", role:"Front End developer", loc:"Remote",dur:"June 2021 - Sept 2022", desc:"Using React and React native to turn wireframe designs into functional and fully responsive web applications for clients."}
 return(
     <div className='flex flex-col items-center  w-full h-[100vh] py-4 mx-auto justify-center '>
