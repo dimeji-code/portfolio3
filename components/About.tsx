@@ -13,7 +13,7 @@ const About = (props: Props) => {
 
                 <h2 className='text-sm md:text-lg mb-5'>I am a Fullstack developer located in Ontario, Canada with a passion for creating responsive, scalable and efficient websites.</h2>
                 <h2 className='text-sm md:text-lg mb-5'>I love learning about new technologies with my experience ranging from Web Development to Automation. From my work experience, I have had the opportunity to collaborate with talented people from different timezones.</h2>
-                <h2 className='text-sm md:text-lg mb-5  sm:inline-block'>I have a Bachelors Degree in Computer Science from Carleton University. I am a <strong>certified AWS Cloud Practitioner</strong> and I aim to be a Certfied Solutions Architect in the near future.</h2>
+                <h2 className='text-sm md:text-lg mb-5  sm:inline-block'>I have a Bachelors Degree in Computer Science from Carleton University. I am a <strong>certified AWS Solutions Architect Associate</strong> and I aim learn more.</h2>
                 <h2 className='text-sm md:text-lg mb-5  sm:flex'>Feel free to reach out.</h2>
                 <div className='flex flex-row'>
                     <Button text='Linkedin' color='light' id='linkedin' link='https://www.linkedin.com/in/dimejisitu'/>
