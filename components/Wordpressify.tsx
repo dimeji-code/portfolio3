@@ -7,7 +7,7 @@ const Wordpressify = (props: Props) => {
   return (
     <div className="w-full  bg-[#f4f5f6] shadow-inner ">
         <div className=" flex flex-row justify-center text-5xl font-semibold p-3 border-b border-[#ccc]">
-            <h2 className='text-[#263241]'>CMS Portfolio</h2>
+            <h2 className='text-[#263241]'>Articulate 360 Sample Course</h2>
         </div>
         
     <div className="w-full h-[35vh]  p-8 mx-auto max-w-6xl   flex flex-row items-center hover:cursor-pointer " onClick={()=> window.open('https://dimeji-code.github.io/Food-Quality-Assurance/', "_blank")} >
