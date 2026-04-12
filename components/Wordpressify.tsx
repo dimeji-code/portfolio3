@@ -17,7 +17,7 @@ const Wordpressify = (props: Props) => {
         </div>
         {/* <h2>Hello wordpress</h2> */}
         <div className="w-1/2 flex-3/4 h-full flex flex-col justify-center text-left items-left">
-            <h5 className='text-[#263241] text-xl md:text-3xl hover:cursor-pointer'  >Click here to view my portfolio made with <strong>Wordpress</strong>.</h5>
+            <h5 className='text-[#263241] text-xl md:text-3xl hover:cursor-pointer'  >Click here to view my course made with <strong>ARTICULATE 360</strong>.</h5>
 
         </div>
 
