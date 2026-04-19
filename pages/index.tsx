@@ -41,7 +41,7 @@ export default function Home() {
         <Wordpressify />
       </section>
       <section id='wordpressify2' className='snap-center z-2'>
-        <Wordpressify />
+        <Rise />
       </section>
 
       <section id='projects' 
