@@ -40,6 +40,9 @@ export default function Home() {
       <section id='wordpressify' className='snap-center z-2'>
         <Wordpressify />
       </section>
+      <section id='wordpressify2' className='snap-center z-2'>
+        <Wordpressify />
+      </section>
 
       <section id='projects' 
       className='snap-center z-2'
