@@ -11,8 +11,8 @@ const Wordpressify = (props: Props) => {
         </div>
         
     <div className="w-full h-[35vh]  p-8 mx-auto max-w-6xl   flex flex-row items-center hover:cursor-pointer " onClick={()=> window.open('https://dimeji-code.github.io/Food-Quality-Assurance/', "_blank")} >
-        <div className="w-1/2 h-full flex-1/3 flex justify-center">
-         <img src="/storyline.png"  alt='articulate' className='w-[120px] h-[120px] hover:cursor-pointer rotate hover:scale-y-2'  />
+        <div className="w-1/2 h-full flex-1/3 flex justify-center align-center">
+         <img src="/storyline.png"  alt='articulate' className='w-[130px] h-[130px] hover:cursor-pointer rotate hover:scale-y-2'  />
 
         </div>
         {/* <h2>Hello wordpress</h2> */}
