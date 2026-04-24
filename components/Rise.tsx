@@ -12,7 +12,7 @@ const Rise = (props: Props) => {
         
     <div className="w-full h-[35vh]  p-8 mx-auto max-w-6xl   flex flex-row items-center hover:cursor-pointer " onClick={()=> window.open('https://dimeji-code.github.io/Learning-experience-designer/', "_blank")} >
         <div className="w-1/2 h-full flex-1/3 flex justify-center items-center">
-         <img src="/rise.png"  alt='articulate' className='w-[120px] h-[120px] md:w-auto md:h-auto hover:cursor-pointer rotate hover:scale-y-2'  />
+         <img src="/rise.png"  alt='articulate' className='w-[120px] h-[120px] lg:w-[190px] lg:h-[190px] xl:w-[200px] xl:h-[200px] hover:cursor-pointer rotate hover:scale-y-2'  />
 
         </div>
         {/* <h2>Hello wordpress</h2> */}
